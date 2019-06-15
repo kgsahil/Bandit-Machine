@@ -1,0 +1,59 @@
+/*
+Description:
+    Contains all the styles for the winning wheel page.
+    
+Verison History:
+    2012-01-28, Douglas McKechie
+    - Created based off earlier version.
+    
+    2015-09-26, Douglas McKechie
+    - Minor updates for the 2.0 winwheel example.
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    position: absolute;
+    margin-top: 10px;
+}
+
+body
+{
+    font-family: arial;
+    background: linear-gradient(
+    to bottom,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 60)
+  ),url(./bg5.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.hook{
+    position: absolute;
+    margin: 0 auto;
+    width: 55vw;
+    z-index: 1;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.anotherhook{
+    top: 40%;
+    /* display: none; */
+
+}
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+    cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
